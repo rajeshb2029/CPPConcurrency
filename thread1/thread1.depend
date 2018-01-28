@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1517102993 source:c:\users\rajesh\documents\codeblocksprojects\cppconcurrency\thread1\main.cpp
+	<iostream>
+	"Chapter1.h"
+	"Chapter2.h"
+
+1517101915 c:\users\rajesh\documents\codeblocksprojects\cppconcurrency\thread1\chapter1.h
+	<iostream>
+	<thread>
+	<vector>
+
+1517108201 c:\users\rajesh\documents\codeblocksprojects\cppconcurrency\thread1\chapter2.h
+	<thread>
+	<iostream>
+	<chrono>
+

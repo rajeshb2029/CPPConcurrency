@@ -1,30 +1,15 @@
 #include <iostream>
-#include <thread>
-#include <vector>
+
+#include "Chapter1.h"
+#include "Chapter2.h"
 
 using namespace std;
 
-void helloWorld() {
-    cout << "Hello World!" << endl;
-}
-
-void helloWorldID(int ID) {
-    cout << ID << " Hello World!" << endl;
-}
-
 int main() {
-    std::thread t1(helloWorld);
-    t1.join();
 
-    const int numThreads = 10;
-    std::vector<std::thread> threadPool;
-    for (int id = 0; id < numThreads; id++) {
-        threadPool.push_back(std::thread(helloWorldID, id));
-    }
-
-    for (auto &t : threadPool) {
-        t.join();
-    }
+    //chapter1_test();
+    //chapter2_test1();
+    chapter2_test2();
 
     return 0;
 }
